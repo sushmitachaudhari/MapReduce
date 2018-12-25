@@ -1,0 +1,11 @@
+This is a program to find shortest path from a source.
+
+Implements:
+            1. Given a parameter k, randomly sample approximately k distinct users from the Twitter data.
+            2. Run k-source shortest path for all k users together. This computes the shortest path from each of the k source vertices to all vertices in the graph (including the sources). It is similar to the single-source program but requires maintaining the distances from each of the k source vertices, instead of just a single source. (This not the same as running single-source shortest path k times!)
+            3. Return the longest shortest path for each of the k source vertices.
+
+
+HOW TO RUN?
+        Clone the project. Run the command Make local in the Make file
+        To run on the aws, use make aws command

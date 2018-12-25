@@ -1,0 +1,12 @@
+This is a program for k means clustering path from a source.
+
+Implements:
+            1. Given a parameter k, clusters the data into k centroids.
+            2. First, we calculate the follower count for each user in twitter dataset given to us.
+            3. Then for each follower count, we check the difference between the centroid and the follower count.
+            The follower count is assigned to the centroid which it is closest to.
+            4. The centroid is updated each time, by calculating the mean of the data objects in that cluster.
+
+HOW TO RUN?
+        Clone the project. Run the command Make local in the Make file
+        To run on the aws, use make aws command
